@@ -19,9 +19,9 @@ a {text-decoration: none; color: #212121;}
   background-color: #ffffff;
   font-family: roboto, sans-serif;
   font-size: 14px;
-  line height: 1.14;
+  line-height: 1.14;
   font-weight: 500;}
-}
+
 
 h3 {font-weight: bold;
 font-size: 14px;
@@ -40,7 +40,7 @@ a {text-decoration: none; color: #212121;}
   color: #2196f3;
   font-family: Raleway, sans-serif;
   font-size: 26px;
-  line height: 1.19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   font-weight: 700;
 
@@ -54,7 +54,7 @@ a {text-decoration: none; color: #212121;}
 
 .contacts a{color: #757575;
     font-size: 14px;
-  line height: 1.14;
+  line-height: 1.14;
   letter-spacing: 2%;
   font-weight: 500;}
 .contacts a:hover, .contacts a:focus {color: #2196F3; text-decoration:underline}
@@ -109,7 +109,7 @@ letter-spacing: 0.03em;
 text-align: center;
 color: #757575;}
 
-.socials li {display: inline; align: center; }
+.socials li {display: inline;}
 
 .socials a:hover, .socials a:focus {background-color:#2196F3;}
 
@@ -139,7 +139,7 @@ color: #FFFFFF;}
 .footer-list-link {color: rgba(255, 255, 255, 0.6);}
 
 .footer h3 {color: #FFFFFF;}
-.footer-socials li {display: inline; align: center; }
+.footer-socials li {display: inline; }
 .footer-socials a:hover, .footer-socials a:focus {background-color:#2196F3;}
 
 .footer-button {color: white; background-color: #2196F3; ;}
