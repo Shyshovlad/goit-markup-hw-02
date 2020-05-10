@@ -1,0 +1,152 @@
+/*цвет основного текста #212121
+вторичный цвет текста #757575
+белый цвет текста #FFFFFF
+цвет акцента #2196F3
+основной цвет макета  #FFFFFF
+вторичный цвет макета #F5F4FA
+цвет подвала #2F303A*/
+ul {
+  list-style: none;
+}
+.title {font-weight: bold;
+font-size: 36px;
+line-height: 1.7;
+text-align: center;}
+a {text-decoration: none; color: #212121;}
+
+.body {
+  color: #212121;
+  background-color: #ffffff;
+  font-family: roboto, sans-serif;
+  font-size: 14px;
+  line height: 1.14;
+  font-weight: 500;}
+}
+
+h3 {font-weight: bold;
+font-size: 14px;
+line-height: 1.42;
+letter-spacing: 0.03em;}
+
+.body .title {font-weight: bold;
+font-size: 36px;
+line-height: 1.7;
+text-align: center;}
+a {text-decoration: none; color: #212121;}
+
+/*header*/
+
+.nav-logo {
+  color: #2196f3;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line height: 1.19;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+
+}
+.nav-logo span {
+  color: #212121;
+}
+.nav-logo:focus {color:#2196f3;} 
+
+.nav a:hover, .nav a:focus {color: #2196F3; text-decoration:underline}
+
+.contacts a{color: #757575;
+    font-size: 14px;
+  line height: 1.14;
+  letter-spacing: 2%;
+  font-weight: 500;}
+.contacts a:hover, .contacts a:focus {color: #2196F3; text-decoration:underline}
+
+/*Main */
+
+.hero h1 {
+    font-weight: 900;
+font-size: 44px;
+line-height: 13.6;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #ffffff;
+background-color: grey;}
+
+.hero a {font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: #2196f3;
+}
+.hero a:hover, .hero a:focus {color: rgb(255, 255, 255); text-decoration:underline}
+
+/*benefits*/
+
+.benefits p {
+    color: #757575;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7}
+
+/*features*/
+
+.features p {text-align: center; text-transform: uppercase;color: #FFFFFF; background-color: rgba(47, 48, 58, 0.8);}
+.features a:hover, .features a:focus {color:#2196F3; text-decoration:underline;}
+
+/*section-team*/
+.section-team {background-color: #F5F4FA;}
+
+.section-team h3 {font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;}
+
+.section-team p { font-weight: 400;
+letter-spacing: 0.03em;
+text-align: center;
+color: #757575;}
+
+.socials li {display: inline; align: center; }
+
+.socials a:hover, .socials a:focus {background-color:#2196F3;}
+
+/*aside*/
+
+.aside li {display: inline;}
+
+.aside a:hover, .aside a:focus {background-color:#2196F3;}
+
+/*footer*/
+
+.footer {background-color: #2F303A ;}
+.footer-link {color:#2196F3;font-size: 22px;
+line-height: 1.18;
+letter-spacing: 0.03em;}
+.footer-link span {color: white;}
+.footer-link:hover, .footer-link:focus {color: #2196F3; text-decoration:underline}
+.footer-socials li{display: inline;}
+
+.footer-list{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;}
+.footer-list-adress {
+color: #FFFFFF;}
+.footer-list-link {color: rgba(255, 255, 255, 0.6);}
+
+.footer h3 {color: #FFFFFF;}
+.footer-socials li {display: inline; align: center; }
+.footer-socials a:hover, .footer-socials a:focus {background-color:#2196F3;}
+
+.footer-button {color: white; background-color: #2196F3; ;}
+.footer-form li:hover, .footer-form li:focus {background-color:#2196F3;}
+.footer span{font-weight: normal;
+font-size: 12px;
+line-height: 2;
+text-align: center;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.4);}
