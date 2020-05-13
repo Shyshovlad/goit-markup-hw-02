@@ -1,7 +1,7 @@
 :root {
   --accent-color: #2196f3;
   --primary-text-color: #212121;
-  --secondary-texy-color: #757575;
+  --secondary-text-color: #757575;
 }
 
 /*цвет основного текста #212121;
@@ -23,7 +23,6 @@ ul {
 }
 a {
   text-decoration: none;
-  color: var(--primary-text-color);
 }
 
 .body {
@@ -40,17 +39,6 @@ h3 {
   font-size: 14px;
   line-height: 1.42;
   letter-spacing: 0.03em;
-}
-
-.body .title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.7;
-  text-align: center;
-}
-a {
-  text-decoration: none;
-  color: var(--primary-text-color);
 }
 
 /*header*/
@@ -73,7 +61,6 @@ a {
 .nav a:hover,
 .nav a:focus {
   color: var(--accent-color);
-  text-decoration: underline;
 }
 
 .contacts a {
@@ -82,7 +69,6 @@ a {
 .contacts a:hover,
 .contacts a:focus {
   color: var(--accent-color);
-  text-decoration: underline;
 }
 
 /*Main */
@@ -109,12 +95,11 @@ a {
 .hero a:hover,
 .hero a:focus {
   color: rgb(255, 255, 255);
-  text-decoration: underline;
 }
 
 /*features*/
 
-.features p {
+.features-list p {
   color: var(--secondary-text-color);
   font-weight: 400;
   line-height: 1.7;
@@ -125,11 +110,11 @@ a {
   text-transform: uppercase;
   color: #ffffff;
   background-color: rgba(47, 48, 58, 0.8);
+  font-weight: 700;
 }
 .features-work a:hover,
 .features-work a:focus {
   color: var(--accent-color);
-  text-decoration: underline;
 }
 
 /*section-team*/
@@ -141,14 +126,13 @@ a {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .section-team p {
   font-weight: 400;
-  letter-spacing: 0.03em;
   text-align: center;
   color: var(--secondary-text-color);
+  font-size: 16px;
 }
 
 .socials li {
@@ -191,7 +175,6 @@ a {
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
-  text-decoration: underline;
 }
 .footer-socials li {
   display: inline;
@@ -244,15 +227,14 @@ a {
 }
 
 .list-button li {
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
-  border-radius: 4px;
   display: inline;
 }
 .list-button button {
   background: #f5f4fa;
   border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
 }
 .list-button :hover,
 .list-button :focus {
